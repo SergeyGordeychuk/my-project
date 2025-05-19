@@ -11,6 +11,7 @@ public class Main {
     Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
+        int x = 10;
         String[] str = {"romeo", "juliette"};
         for (int multiple : getMultiples(2, 10)) {
             System.out.print(multiple);
